@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0%;
+    text-decoration: none;
+}
+
+.navbar {
+    height: fit-content;
+    width: 100%;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 95%);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.postAd {
+    color: white;
+    font-size: 20px;
+    height: fit-content;
+    width: fit-content;
+    padding-top: 3px;
+    background-color: rgba(51, 173, 11, 0.926);
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.hedding {
+    font-size: clamp(24px, 3vw, 5vw);
+    position: relative;
+    color: #0404f8;
+    margin-left: 10px;
+
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+#discription-para {
+    font-size: clamp(16px, 2.5vw, 3vw);
+    height: fit-content;
+    width: 98%;
+    margin-left: 5px;
+    padding: 5px;
+
+}
+
+.picdiv1 {
+    width: 97%;
+    height: 210px;
+    display: flex;
+    margin-left: 5px;
+    border-radius: 9px 8px 8px 8px;
+    margin: 0px 10px 6px 5px;
+    border: solid rgb(150, 241, 120);
+
+
+}
+
+.item1 {
+    width: 30%;
+    height: 205px; ;
+    border-radius: 8px 0px 0px 8px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.photo {
+    max-height: 205px;
+    min-height: 205px;
+    border-radius: 8px 0px 0px 8px;
+    min-width: 145px;
+    max-width: 145px;
+}
+
+.item2 {
+    width: 70%;
+    height: 205px;
+    padding: 8px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 0px 8px 8px 0px;
+
+}
+
+.title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    font-size: clamp(16px, 2vw, 3vw);
+    height: fit-content;
+
+}
+.discription{display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;}
+
+.whatsapp {
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: rgba(76, 200, 34, 0.926);
+    border-radius: 5px;
+    padding: 3px;
+    color: white; 
+}
+
+.contact {
+    background-color: rgb(134, 200, 86);
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(175, 173, 175);
+    display: non;
+    margin: 10px 0px 0px 5px;
+    color: white;
+    font-size: xx-large;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: first baseline;
+    margin: 3px;
+}
+
+.postAd:hover {
+    color: aqua;
+    cursor: pointer;
+    color: #0404f8;
+    transition: 0.5 ease;
+}
+
+.whatsapp:hover {
+    color: rgba(28, 59, 232, 0.923);
+}
+
+.title:hover {
+    color: rgb(22, 192, 192);
+    cursor: pointer;
+}
+
+.contact:hover {
+    color: rgba(28, 59, 232, 0.923);
+}
+
+@media(max-width:480px) {
+
+    .item1 {
+        width: 35%;
+    }
+    .item2 {
+        width: 65%;
+    }
+    .whatsapp {
+        font-size: medium;
+    }
+    .contact {
+        font-size: medium;
+    }
+    .photo {
+        min-width: 95%;
+        max-width: 95%;
+    }
+    .postAd {
+        font-size: medium;
+    }
+    .postAd {
+        font-size: medium
+    }
+
+
+}
+
+@media(min-width:770px) {
+    .picdiv1 {
+        width: 75%;
+        margin: 0px 0px 10px 0px;
+    }
+
+    #mainpage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #discription-para {
+        display: flex;
+        justify-self: center;
+        padding-top: 40px;       
+        width: 75%;
+
+    }
+
+    .photo {
+        max-width: 50%;
+        min-width: 50%;
+    }
+    .navbar{position: absolute;}
+}

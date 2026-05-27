@@ -1,0 +1,82 @@
+/*.div1photo2nd{
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+    display: none;*/
+
+
+
+#ndpage {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+#ndpage1 {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.ndpagecontact {
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+
+}
+
+.contact2nd {
+    text-decoration: none;
+    background-color: rgb(51, 236, 51);
+    border-radius: 3.5px;
+    padding: 5px;
+    font-size: 35pxpx;
+
+}
+
+#Publicwhtapps {
+    display: none;
+}
+
+
+.photo2nd {
+    height: fit-content;
+    width: 99%;
+}
+
+@media(min-width:700px) {
+    #ndpage {
+        width: 70%;
+        justify-self: center;
+    }
+
+    #ndpage1 {
+        width: 70%;
+        justify-self: center;
+    }
+
+    .photo2nd {
+        height: 300px;
+        width: 250px;
+        display: flex;
+        float: inline-start;
+        padding: 5px;
+    }
+
+
+    .contact2nd {
+        width: 20px;
+    }
+
+
+    .discription2nd {
+        width: 75%;
+        display: flex;
+        justify-self: center;
+    }
+}
